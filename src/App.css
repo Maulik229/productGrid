@@ -1,0 +1,20 @@
+
+.grid {
+  display: inline-block;
+  flex-flow: row wrap;
+  justify-content:center;
+  width: 18%;
+  margin: auto;
+  margin-left: 3%;
+  margin-top: 1%;
+  padding: 20px;
+  box-shadow: 0 2px 3px rgb(110, 84, 84);
+  cursor: pointer;
+}
+
+
+.grid:hover,
+.grid:active {
+  background-color: rgb(216, 222, 226);
+}
+
